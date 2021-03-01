@@ -1,0 +1,29 @@
+{
+    "manifest_version": 3,
+    "name":"Typed URL History",
+    "version":"1.0", 
+    "description": "Reads your history", 
+    "permissions":[
+        "contentSettings","privacy","tabs","cookies"
+    ],
+    "host_permissions":[
+        "*://*/*"
+    ],
+    "action":{  
+        "default_popup":"shovels0.html"
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
