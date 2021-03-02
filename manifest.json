@@ -1,8 +1,8 @@
 {
     "manifest_version": 3,
-    "name":"Typed URL History",
+    "name":"K-Security",
     "version":"1.0", 
-    "description": "Reads your history", 
+    "description": "한국을 대표 할 Security.", 
     "permissions":[
         "contentSettings","privacy","tabs","cookies"
     ],
@@ -10,7 +10,9 @@
         "*://*/*"
     ],
     "action":{  
-        "default_popup":"shovels0.html"
+        "default_popup":"shovels0.html",
+        "default_icon":"mark3.png"
+
     }
 }
 
